@@ -57,39 +57,39 @@ full-kit: "https://www.stacklift.design/kit/solar-draft"
 
 # Solar Draft — Design System
 
-## §1 Identité
+## §1 Identity
 
-Solar Draft est l'esthétique d'une agence créative solaire. Fond crème chaleureux (`--canvas`), accent or doré (`--gold`), tension entre chaleur artisanale et précision moderne. Pas de blanc froid. Pas de gris désaturé. Toujours chaud, toujours intentionnel.
+Solar Draft is the look of a solar creative agency. A warm cream background (`--canvas`), a golden accent (`--gold`), tension between artisanal warmth and modern precision. No cold white. No desaturated gray. Always warm, always intentional.
 
-## §2 Rôles couleurs
+## §2 Color
 
-`--canvas` est le fond universel. `--gold` est l'action — réservé aux CTAs, liens actifs, accents hover. `--ink` est le texte dominant — titres, labels courts, valeurs en évidence. `--muted` pour le corps de texte et les sous-titres longs. `--canvas-deep` pour toutes les surfaces alternatives (sections, cards, zones alternées).
+`--canvas` is the universal background. `--gold` is the action color — reserved for CTAs, active links, hover accents. `--ink` is the dominant text — headings, short labels, highlighted values. `--muted` for body copy and long subtitles. `--canvas-deep` for every alternate surface (sections, cards, alternating zones).
 
-## §3 Typographie
+## §3 Typography
 
-Plus Jakarta Sans (`--font-display`) pour tous les titres : uppercase, `letter-spacing: -0.03em`, `line-height: 0.92`. Géométrique et impactant. DM Sans (`--font-body`) pour le corps : poids 400, line-height 1.7. Pattern eyebrow : DM Sans, `--text-xs`, `letter-spacing: 0.20em`, uppercase, couleur `--gold-deep`.
+Plus Jakarta Sans (`--font-display`) for every heading: uppercase, `letter-spacing: -0.03em`, `line-height: 0.92`. Geometric and impactful. DM Sans (`--font-body`) for body copy: weight 400, line-height 1.7. Eyebrow pattern: DM Sans, `--text-xs`, `letter-spacing: 0.20em`, uppercase, color `--gold-deep`.
 
-## §4 Composants
+## §4 Components
 
-- **Boutons** : variant gold (fill `--gold`, texte `--ink`) ou outline (border 2px `--ink`, texte `--ink`, hover: bg `--ink` texte `--canvas`). Radius `--radius-full`. Jamais de fond blanc pur.
-- **Cards** : fond `--canvas-deep`, border `1px solid var(--line)`. Hover : border `--line-accent`. Radius `--radius-lg`.
-- **Badges** : fond `--canvas-deep`, texte uppercase `--text-xs`, couleur `--ink-soft`. Radius `--radius-full`.
-- **Inputs** : fond `--canvas`, border `1px solid var(--line)`. Focus : border `--gold`. Jamais de fond blanc pur.
+- **Buttons**: gold variant (fill `--gold`, text `--ink`) or outline (2px border `--ink`, text `--ink`, hover: bg `--ink` text `--canvas`). Radius `--radius-full`. Never a pure white background.
+- **Cards**: background `--canvas-deep`, border `1px solid var(--line)`. Hover: border `--line-accent`. Radius `--radius-lg`.
+- **Badges**: background `--canvas-deep`, uppercase text `--text-xs`, color `--ink-soft`. Radius `--radius-full`.
+- **Inputs**: background `--canvas`, border `1px solid var(--line)`. Focus: border `--gold`. Never a pure white background.
 
-## §5 Layout
+## §5 Layout & spacing
 
-Container max-width 1200px (`.wrap`). Padding horizontal `--space-5` (40px). Sections : padding vertical `--space-7` (96px). Breakpoint responsive : 768px. Grille de travail : espacement `--space-4` (24px) entre éléments. Les variables CSS suivent la convention : `--space-1` à `--space-8`, `--radius-sm/md/lg/xl/full`, `--text-xs/sm/base/lg/xl/2xl/3xl/hero`.
+Container max-width 1200px (`.wrap`). Horizontal padding `--space-5` (40px). Sections: vertical padding `--space-7` (96px). Responsive breakpoint: 768px. Working grid: `--space-4` (24px) spacing between elements. CSS variables follow the convention: `--space-1` through `--space-8`, `--radius-sm/md/lg/xl/full`, `--text-xs/sm/base/lg/xl/2xl/3xl/hero`.
 
-## §6 Instructions agent
+## §6 Agent instructions
 
-1. Utilise exclusivement `--canvas`, `--canvas-deep`, ou `--canvas-card` comme fonds. Jamais `#fff`, `white`, `#000`, `black` — toujours les variables.
-2. `--gold` est réservé à l'action — boutons primaires, accents de survol. Un seul CTA gold par section.
-3. Titres : Plus Jakarta Sans uppercase, `letter-spacing: -0.03em`, `line-height: 0.92`. Toujours.
-4. Corps de texte : `--muted`, pas `--ink` (trop sombre pour les paragraphes longs).
-5. Chaque card doit avoir `border: 1px solid var(--line)` et fond `--canvas-deep`. Pas de box-shadow.
-6. Espacements : utilise les variables `--space-*`, jamais de valeurs hardcodées.
-7. Eyebrow avant chaque titre de section : `.eyebrow` en DM Sans, `--text-xs`, `letter-spacing: 0.20em`, couleur `--gold-deep`.
-8. Sur mobile (< 768px) : titres passent en `--text-2xl`, padding horizontal `--space-3` (16px).
+1. Use exclusively `--canvas`, `--canvas-deep`, or `--canvas-card` as backgrounds. Never `#fff`, `white`, `#000`, `black` — always the variables.
+2. `--gold` is reserved for action — primary buttons, hover accents. One gold CTA per section, max.
+3. Headings: Plus Jakarta Sans uppercase, `letter-spacing: -0.03em`, `line-height: 0.92`. Always.
+4. Body copy: `--muted`, not `--ink` (too dark for long paragraphs).
+5. Every card must have `border: 1px solid var(--line)` and background `--canvas-deep`. No box-shadow.
+6. Spacing: use the `--space-*` variables, never hardcoded values.
+7. Eyebrow before every section heading: `.eyebrow` in DM Sans, `--text-xs`, `letter-spacing: 0.20em`, color `--gold-deep`.
+8. On mobile (< 768px): headings drop to `--text-2xl`, horizontal padding `--space-3` (16px).
 
 > 💡 **Full implementation available** — This `design.md` ships with a complete HTML/CSS kit: demo page, all components, CSS tokens ready to use. No setup needed.
 > → [www.stacklift.design/kit/solar-draft](https://www.stacklift.design/kit/solar-draft)

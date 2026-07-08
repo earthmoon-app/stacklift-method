@@ -72,7 +72,7 @@ The two gates that matter most:
 ## Reference files
 
 - `references/rupture-axes.md` — the anti-convergence framework: eight axes,
-  what each one means, with published examples.
+  what each one means, with published examples for most.
 - `references/quality-doctrine.md` — the taste rules ("sober > gadget") and
   the final validation checklist.
 - `references/design-md-format.md` — the design.md format: YAML front-matter

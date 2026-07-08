@@ -43,7 +43,7 @@ double-click: self-contained HTML, a Design System view, and a
 ## The method in three files
 
 - [`rupture-axes.md`](skills/kit-method/references/rupture-axes.md) — the
-  anti-convergence framework: eight axes, with published examples.
+  anti-convergence framework: eight axes, with published examples for most.
 - [`quality-doctrine.md`](skills/kit-method/references/quality-doctrine.md) —
   the taste rules ("sober > gadget") and the validation checklist.
 - [`design-md-format.md`](skills/kit-method/references/design-md-format.md) —
