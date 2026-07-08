@@ -1,0 +1,14 @@
+{
+  "name": "stacklift-method",
+  "owner": {
+    "name": "Stacklift",
+    "url": "https://www.stacklift.design"
+  },
+  "plugins": [
+    {
+      "name": "stacklift-method",
+      "source": "./",
+      "description": "Build distinctive, self-contained design kits with Claude — the method behind the Stacklift catalogue."
+    }
+  ]
+}

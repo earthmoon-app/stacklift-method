@@ -1,0 +1,13 @@
+{
+  "name": "stacklift-method",
+  "description": "The method behind the Stacklift catalogue — build distinctive, self-contained design kits with Claude, without converging on the same AI-default design.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stacklift",
+    "url": "https://www.stacklift.design"
+  },
+  "homepage": "https://www.stacklift.design/method",
+  "repository": "https://github.com/earthmoon-app/stacklift-method",
+  "license": "MIT",
+  "keywords": ["design", "design-system", "landing-page", "web-design", "creative"]
+}
