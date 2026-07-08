@@ -1,5 +1,6 @@
 {
   "name": "stacklift-method",
+  "description": "The method behind the Stacklift catalogue — build distinctive, self-contained design kits with Claude, without converging on the same AI-default design.",
   "owner": {
     "name": "Stacklift",
     "url": "https://www.stacklift.design"
