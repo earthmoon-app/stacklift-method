@@ -78,6 +78,9 @@ The two gates that matter most:
 - `references/design-md-format.md` — the design.md format: YAML front-matter
   and body sections.
 
+**Already have a site?** Use the **redesign** skill in this same plugin —
+same method, second entry point: preserve the copy, rebuild the structure.
+
 ---
 
 *This is the public version of the method used to build every kit at

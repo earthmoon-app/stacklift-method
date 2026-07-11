@@ -28,7 +28,14 @@ the method behind every kit in the catalogue:
 /plugin install stacklift-method@stacklift-method
 ```
 
-Then ask Claude: *"Build a design kit from this inspiration: …"*
+Then ask Claude — the method has two entry points:
+
+- **Create:** *"Build a design kit from this inspiration: …"*
+- **Redesign:** *"Redesign my existing site — keep my copy, make it
+  distinctive: …"* — Claude inventories your site, audits it against the
+  rupture axes, locks what must be preserved (copy, structure, optionally
+  your brand), then rebuilds it around ONE axis as self-contained pages plus
+  a `design.md`, next to your site — your files are never touched.
 
 ## What it produces
 
