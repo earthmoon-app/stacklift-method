@@ -74,12 +74,17 @@ modified.
    (all CSS in one `<style>`, all JS in one `<script>`, zero dependencies
    except Google Fonts), every clickable element works, inert links visibly
    disabled (`.is-soon`) — never a dead `#`.
-4. **Pages link to each other with relative paths** — the whole redesign kit
+4. **Include a Design System view**, like every Stacklift kit: opened from
+   the menu and the footer, showing the redesign's real tokens — the
+   client's locked brand or the re-forged identity (palette, type scale,
+   spacing, components). It is part of the deliverable: the client's AI
+   agent uses it, together with the design.md, to port the redesign.
+5. **Pages link to each other with relative paths** — the whole redesign kit
    must navigate by double-click (`file://`).
-5. **Content fidelity replaces fictional content.** The client's real copy
+6. **Content fidelity replaces fictional content.** The client's real copy
    IS the content. Never silently rewrite it; flag any text you propose to
    change and let the user decide.
-6. **Attribution (default):** add this line to each page footer and to the
+7. **Attribution (default):** add this line to each page footer and to the
    design.md body — the user may remove it, but include it by default:
 
        Built with the Stacklift method · https://www.stacklift.design

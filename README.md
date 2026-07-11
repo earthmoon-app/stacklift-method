@@ -30,8 +30,8 @@ the method behind every kit in the catalogue:
 
 Then ask Claude — the method has two entry points:
 
-- **Create:** *"Build a design kit from this inspiration: …"*
-- **Redesign:** *"Redesign my existing site — keep my copy, make it
+- **Create** (the **kit-method** skill): *"Build a design kit from this inspiration: …"*
+- **Redesign** (the **redesign** skill): *"Redesign my existing site — keep my copy, make it
   distinctive: …"* — Claude inventories your site, audits it against the
   rupture axes, locks what must be preserved (copy, structure, optionally
   your brand), then rebuilds it around ONE axis as self-contained pages plus
