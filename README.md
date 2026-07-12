@@ -1,6 +1,6 @@
 # The Stacklift Method
 
-**I'm not a developer. I built a 20-kit design catalogue with Claude — every
+**I'm not a developer. I built a 21-kit design catalogue with Claude — every
 kit visually unrelated to the next. This is the method.**
 
 AI-generated design converges: dark canvas, lime accent, the same three
@@ -50,7 +50,7 @@ double-click: self-contained HTML, a Design System view, and a
 ## The method in three files
 
 - [`rupture-axes.md`](skills/kit-method/references/rupture-axes.md) — the
-  anti-convergence framework: eight axes, with published examples for most.
+  anti-convergence framework: eight axes, each with a published example.
 - [`quality-doctrine.md`](skills/kit-method/references/quality-doctrine.md) —
   the taste rules ("sober > gadget") and the validation checklist.
 - [`design-md-format.md`](skills/kit-method/references/design-md-format.md) —
@@ -58,7 +58,7 @@ double-click: self-contained HTML, a Design System view, and a
 
 ## Or skip the work
 
-The method is free. The finished kits are 29 € each — 20+ kits, one per
+The method is free. The finished kits are 29 € each — 21 kits, one per
 rupture axis, ready to hand to your AI agent:
 **[stacklift.design](https://www.stacklift.design)** · how a buyer adapts a
 kit in one hour: [the case study](https://www.stacklift.design/adapt).

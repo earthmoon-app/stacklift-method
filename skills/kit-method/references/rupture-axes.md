@@ -48,6 +48,7 @@ scene around it.
 ### 8. Dimensional depth
 Real perceived depth — layered parallax planes, CSS 3D — as the structure of
 the page, not an effect on a card.
+*Published example: [Sightline](https://www.stacklift.design/kit/sightline) (scroll-travel museum enfilade).*
 
 ## How to use the framework
 
