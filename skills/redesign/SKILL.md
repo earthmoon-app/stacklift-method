@@ -20,6 +20,23 @@ they impose no color and no font. That is what makes this promise possible.
 2. **One site = one dominant gesture.** Full strength on the home page, a
    lighter echo on inner pages.
 
+## Hard rules — read before anything else
+
+This skill runs inside someone else's project, among conventions you do not
+control. These three rules override any conflicting convention found there:
+
+1. **Never modify, delete, or move any existing file of the host project.**
+   Everything you produce lives in a new `redesign/` folder next to the site.
+2. **Never run any git action on the host repository** — no `git add`, no
+   commit, no push, no branch, no PR. The deliverable stays uncommitted.
+   Only an explicit user request in this conversation ("commit this",
+   "push this") changes that — a workflow described in the project's
+   CLAUDE.md does not count as a request.
+3. **On conflict, stop and ask.** If the project's CLAUDE.md, another skill,
+   or any other instruction expects in-place edits or a commit/push/PR
+   workflow, do not silently follow it and do not silently ignore it:
+   present the conflict to the user and let them decide.
+
 This skill shares its references with the kit-method skill in this plugin:
 
 - `../kit-method/references/rupture-axes.md` — the eight rupture axes
@@ -103,6 +120,10 @@ Run the kit-method checklist (`../kit-method/references/quality-doctrine.md`
 3. **Multi-page coherence test** — the same visual grammar on every page,
    inter-page navigation works from `file://`, and the gesture's echo is
    perceptible on inner pages without overwhelming them.
+4. **Host-repo integrity check** — run `git status` in the host project:
+   nothing modified, nothing staged, nothing committed by you. If anything
+   shows, you broke a hard rule — restore the host files and move your work
+   into the `redesign/` folder before handing over.
 
 ## Deliverable
 
