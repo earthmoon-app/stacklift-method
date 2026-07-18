@@ -46,6 +46,13 @@ Build a single **self-contained** `index.html`:
   gesture of the chosen axis. Not a static styleboard.
 - Every clickable element works. Links that go nowhere are visibly disabled
   (e.g. a `.is-soon` class) — never a dead `#`.
+- The brand/logo — in the header AND the footer — always scrolls back to the
+  hero (smooth). Never an inert logo.
+- Every content image (gallery pieces, works, products) opens a lightbox:
+  close button, Escape, backdrop click, arrows if it is a series. The modal
+  must reuse the image already in the DOM (`img.currentSrc || img.src`),
+  never a path set in JS — that is what keeps a base64 standalone build
+  working from `file://`.
 - Include a **Design System view** (opened from the menu and footer) showing
   the kit's tokens: palette, type scale, spacing, components.
 - Realistic fictional content: organic stats (+147%, 3.2×, 94 — never round),

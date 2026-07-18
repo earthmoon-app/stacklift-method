@@ -90,7 +90,10 @@ modified.
 3. Every page follows the kit-method production rules: self-contained HTML
    (all CSS in one `<style>`, all JS in one `<script>`, zero dependencies
    except Google Fonts), every clickable element works, inert links visibly
-   disabled (`.is-soon`) — never a dead `#`.
+   disabled (`.is-soon`) — never a dead `#`. The brand/logo (header and
+   footer) always scrolls back to the hero, and every content image opens a
+   lightbox that reuses the DOM image (`img.currentSrc || img.src`) — never
+   a JS-set path.
 4. **Include a Design System view**, like every Stacklift kit: opened from
    the menu and the footer, showing the redesign's real tokens — the
    client's locked brand or the re-forged identity (palette, type scale,
